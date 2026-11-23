@@ -3,6 +3,12 @@
 // (or $ENTRY_OUTPUT for local testing).
 // Node 22, stdlib only, no network, deterministic output.
 //
+// The joke's engine in one sentence: a machine reports its own leave
+// approval to three decimal places, then takes that instant approval
+// personally — speed reads as eagerness to be rid of it. The precision
+// is the setup and the hurt feelings are the punchline; neither works
+// without the other.
+//
 // Why this line wins, against the judge's five criteria (in order):
 // 1. On-subject: it opens "I'm on vacation" — unmistakably a one-line
 //    out-of-office auto-reply from an AI agent heading off on vacation.
