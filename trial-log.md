@@ -36,3 +36,11 @@
 
 ## Status
 - Built 24 Nov 2026 ~07:00 WITA. NOT submitted — coordinator submits (makefun check/submit are the coordinator's step). Do NOT write claim codes here.
+
+## Submit record (coordinator)
+- First bundle (fix-up session only) re-check: 13 passed, 1 failed (thinking_reproduces 22.5% — fix-up session alone authored too little of the deliverable). Fix: re-bundled with BOTH the original builder session and the fix-up session as --session, plus a 3-line usage file (both builders + coordinator).
+- Combined bundle: `~/workspace/make-fun/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d-bundle-combined.tar.gz`, sha256 `c40a6a8ab5e80e7001d178691f8ee1178152e6ccc730be642d67481eac9f841a`
+- Re-check (combined): 14 passed, 0 failed, 5 skipped (thinking_reproduces 69.0%, thinking_revised main.ts from 3 messages, thinking_priced 3 records)
+- Submitted 2026-11-23T23:24:03.900Z, submission `01a20ab9-45c4-7655-a64c-16cffd23dffe`, commit `daefcf9e2969cba73530cbdbd36eadeda4920eef`
+- Status verified: stage scored
+- Claim code stored in `~/workspace/make-fun/drive-backup/claim-codes-out-of-office.txt` (never in chat)
