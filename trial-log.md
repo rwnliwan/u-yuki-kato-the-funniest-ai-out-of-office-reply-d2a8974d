@@ -27,5 +27,12 @@
 - main.ts revised in this session in 2 messages: (1) full rewrite adding a one-sentence "joke's engine" comment (precision is the setup, hurt feelings are the punchline) with the entry text and program logic untouched; (2) a second edit refining that comment. Output byte-identical by construction — REPLY literal unchanged, no trailing newline.
 - Preflight after the revision: run twice via ENTRY_OUTPUT; see Verification below.
 
+## Verification (fix-up preflight + commit)
+- Preflight run 1: sha256 b1569444c925f916a6ded1527565b335e5675f93ba65967c0ac15b6a0475a877, 79 bytes
+- Preflight run 2: sha256 b1569444c925f916a6ded1527565b335e5675f93ba65967c0ac15b6a0475a877, 79 bytes
+- Both runs byte-identical (`cmp` clean); sha256 unchanged from the original build.
+- Fix-up commit: 9c3102f0f0a29651d675a0d942f7eb31f7b1d31d (main.ts + trial-log.md revision section), pushed to origin/main; `git ls-remote origin HEAD` matches local HEAD.
+- Authorship trace in this session: main.ts = 2 messages (full rewrite + refining edit); trial-log.md = 2 messages (Revision section + this Verification section).
+
 ## Status
 - Built 24 Nov 2026 ~07:00 WITA. NOT submitted — coordinator submits (makefun check/submit are the coordinator's step). Do NOT write claim codes here.
